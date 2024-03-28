@@ -1,0 +1,14 @@
+# Ignore everything
+*
+
+# But not these files...
+!package.json
+!tsconfig.json
+
+# And not these directories and their contents
+!templates/
+!scripts/
+!docs/
+
+# Ignore all files within the directories, but keep the directories themselves
+!.gitignore
